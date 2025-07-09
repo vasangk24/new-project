@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Manup Template">
+    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HARBOURCODEX</title>
+
+
+    <!-- Favicons -->
+  <link href="img/hackathon logo-01.png" rel="icon">
+  <link href="img/hackathon logo-01.png" rel="apple-touch-icon">
+  <link rel="icon" href="img/hackathon logo-01.png" type="image/vnd.microsoft.icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- ================== NEW NAVIGATION BAR ================== -->
+    <nav class="navbar">
+        <a href="#" class="nav-logo"><img src="img/haborcode.png"MySite Logo"></a>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-us.html">Problem Statement</a></li>
+            <li><a href="./pdf/hackathon brochure.pdf">Brochure</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./register.html" class="nav-register-btn">Register</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section Begin -->
+     <section class="hero-carousel">
+        <div class="carousel-container">
+            <!-- Slide 1 -->
+            <div class="carousel-slide slide-1 active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="hero-text text-white">
+                                <h1>Sink the Problems. Ship the Solutions.</h1>
+                                <p>From coastal chaos to smart clarity — your code can steer change.</p>
+                                <a href="./register.html" class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide slide-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="hero-text text-white">
+                                <h1>Code the Currents</h1>
+                                <p>Navigate inefficiencies, automate operations, and streamline the seascape.</p>
+                                <a href="./register.html" class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-slide slide-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="hero-text text-white">
+                                <h1>Engineered to Solve</h1>
+                                <p>Not just innovation — precision solutions for maritime impact.</p>
+                                <a href="./register.html" class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation arrows -->
+        <button class="carousel-nav carousel-prev" onclick="previousSlide()">❮</button>
+        <button class="carousel-nav carousel-next" onclick="nextSlide()">❯</button>
+
+        <!-- Dots indicator -->
+        <div class="carousel-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Counter Section Begin -->
+     <section class="counter-section bg-gradient">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="counter-text">
+                        <span>Conference Date</span>
+                        <h3>Count Every Second <br />Until the Event</h3>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="cd-timer" id="countdown">
+                        <div class="cd-item">
+                            <span>40</span>
+                            <p>Days</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>18</span>
+                            <p>Hours</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>46</span>
+                            <p>Minutes</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>32</span>
+                            <p>Seconds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Counter Section End -->
+
+    <!-- Home About Section Begin -->
+    <section class="home-about-section container-fluid" style="padding-bottom: 35px;">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="ha-pic">
+                    <img src="img/1 pic.png" alt="" style="padding-bottom: 12px;">
+                    <img src="img/2 pic-01.png" alt="" style="padding-bottom: 12px;">
+                    <img src="img/3 pic.png" alt="">
+                </div>
+            </div>
+            <div class="about-section col-lg-6 ha-text" >
+                    <h2>About Conference</h2>
+                    <p>Join us for the Maritime Hackathon 2025, where innovators, coders, and maritime enthusiasts unite
+                        to address real-world challenges in the maritime industry. From sustainable shipping to smart
+                        port solutions, this is your chance to make waves!</p>
+
+                    <p>Whether you're a developer, designer, or maritime expert, collaborate with like-minded
+                        individuals to create innovative solutions and compete for exciting prizes.</p>
+
+                    <h2>Hackathon Objectives</h2>
+                    <p>The Maritime Hackathon 2025 aims to unite innovators, developers, designers, and maritime experts
+                        to tackle key industry challenges through collaboration and cutting-edge technology.
+                        Participants will create solutions to advance sustainable shipping, optimize port operations,
+                        enhance ocean safety, and leverage data analytics for smarter maritime systems. The objective is
+                        to spark creativity, drive environmental and operational progress, and inspire transformative
+                        ideas for a more efficient, safe, and sustainable maritime future.</p>
+
+                        
+                    <h2 style="padding-bottom: 35px;"></h2>
+                    <!-- <ul class="timeline-list">
+                        <li>
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <b>Phase 1: Registration - </b>Call for participation through portal.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <b>Phase 2: Evaluation 1 - </b>Presentation for Shortlisting top 40-50 teams based on
+                                innovation and feasibility of solutions. (Online)
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <b>Phase 3: Prototype Development Evaluation 2 - </b>Teams develop prototypes with
+                                mentorship support. Mid-term evaluation shortlists top 20-30 teams. (Online)
+                                (Presentations and DEMO)
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <b>Phase 4: Final Evaluation & Presentation - </b>Finalists present working solutions
+                                before a panel of judges, which undergoes continuous evaluation. Winners are selected.
+                                (IIT Madras) (20-30 Teams)
+                            </div>
+                        </li>
+                    </ul> -->
+            </div>
+        </div>
+    </section>
+    <!-- Home About Section End -->
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="timeline-table" style="padding-left: 15%; width: 85%; margin-bottom: 155px; ">
+            <div class="timeline-header">
+                <div>Event</div>
+                <div>Date</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Grand Challenge Launch</strong>
+                </div>
+                <div class="date-cell">01/07/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Last Date for Registration of Team and submission of idea</strong>
+                </div>
+                <div class="date-cell">13/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>First Round of Evaluation</strong>
+                </div>
+                <div class="date-cell">14/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Last date for Submission after the First Round of Evaluation</strong>
+                </div>
+                <div class="date-cell">14/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Second Round of Evaluation (Demo/PoC)</strong>
+                </div>
+                <div class="date-cell">15/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Last Date of Submission of Final Product (After Second Evaluation)</strong>
+                </div>
+                <div class="date-cell">15/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Result for Grand Finale Teams</strong>
+                </div>
+                <div class="date-cell">15/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Grand Finale</strong>
+                </div>
+                <div class="date-cell">16/08/2025</div>
+            </div>
+
+            <div class="timeline-row">
+                <div class="event-cell">
+                    <strong>Awards Ceremony</strong>
+                </div>
+                <div class="date-cell">16/08/2025</div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="container-fluid" style="padding-left: 15%;padding-right: 15%; margin-bottom: 100px; width: 99%;">
+        <div class="Jammu">
+            <h4 style="font-size: 22px; font-weight: 600; color: #223d71; ">About NTCPWC</h4>
+            <p style="font-size: 16px;">
+                National Technology Centre for Ports, Waterways & Coasts
+                The National Technology Centre for Ports, Waterways & Coasts (NTCPWC) has been envisioned as the centre for
+                technological innovations and evolution of new ideas and breakthroughs for the port and maritime sector. It
+                works as the technology arm of Ministry of Shipping and providing the needful technological support to
+                ports, IWAI and other institutions. This Centre gives effective solutions to an extensive range of problems
+                being faced in the industry through scientiﬁc support and also providing valuable education, applied
+                research and technology transfer in maritime transportation at the local, regional, national and
+                International levels. This Centre was set up as an incubation centre at the Indian Institute of Technology
+                Madras (IITM), Chennai during 2018 and expanded its activities both in research and development of a new
+                campus at Thaiyur, Kelambakkam, Chennai. </p>
+        </div>
+    </div>
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text">
+                        <div class="ft-logo">
+                            <a href="#" class="footer-logo"><img src="img/NTCPWC.png" alt="">
+                                <!-- <img src="img/Brochure (2)-06.png" alt=""> -->
+                            </a>
+                        </div>
+                        <ul>
+                             <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-us.html">Problem Statement</a></li>
+            <li><a href="./pdf/hackathon brochure.pdf">Brochure</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./register.html" class="nav-register-btn">Register</a></li>
+                        </ul>
+                        <div class="copyright-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved Harbourcodex
+    
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+  <script>
+        // Add click functionality for mobile devices
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabItems = document.querySelectorAll('.gdlr-core-tab-item-title');
+            
+            tabItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    // Remove active class from all items
+                    tabItems.forEach(tab => tab.classList.remove('gdlr-core-active'));
+                    // Add active class to clicked item
+                    this.classList.add('gdlr-core-active');
+                    
+                    // Prevent dropdown links from triggering tab change
+                    if (e.target.classList.contains('dropdown-item')) {
+                        e.stopPropagation();
+                    }
+                });
+            });
+
+            // Handle dropdown item clicks
+            const dropdownItems = document.querySelectorAll('.dropdown-item');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log('Clicked:', this.textContent);
+                    // Add your navigation logic here
+                });
+            });
+        });
+
+        let slideIndex = 1;
+        const totalSlides = 3;
+        let slideInterval;
+
+        // Auto-slide function
+        function autoSlide() {
+            slideInterval = setInterval(() => {
+                nextSlide();
+            }, 5000); // Change slide every 5 seconds
+        }
+
+        // Start auto-slide when page loads
+        autoSlide();
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const dots = document.querySelectorAll('.dot');
+            
+            if (n > totalSlides) { slideIndex = 1; }
+            if (n < 1) { slideIndex = totalSlides; }
+            
+            // Hide all slides
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            // Show current slide
+            slides[slideIndex - 1].classList.add('active');
+            dots[slideIndex - 1].classList.add('active');
+        }
+
+        function nextSlide() {
+            clearInterval(slideInterval); // Reset auto-slide timer
+            slideIndex++;
+            showSlide(slideIndex);
+            autoSlide(); // Restart auto-slide
+        }
+
+        function previousSlide() {
+            clearInterval(slideInterval); // Reset auto-slide timer
+            slideIndex--;
+            showSlide(slideIndex);
+            autoSlide(); // Restart auto-slide
+        }
+
+        function currentSlide(n) {
+            clearInterval(slideInterval); // Reset auto-slide timer
+            slideIndex = n;
+            showSlide(slideIndex);
+            autoSlide(); // Restart auto-slide
+        }
+
+        // Pause auto-slide on hover
+        const carousel = document.querySelector('.hero-carousel');
+        carousel.addEventListener('mouseenter', () => {
+            clearInterval(slideInterval);
+        });
+
+        carousel.addEventListener('mouseleave', () => {
+            autoSlide();
+        });
+    </script>
+
+</html>
